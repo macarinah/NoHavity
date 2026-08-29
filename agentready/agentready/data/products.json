@@ -1,0 +1,122 @@
+[
+{
+  "product_id": "p001", "vertical": "running", "brand": "Meridian",
+  "product_name": "Meridian Streamline 4", "sku": "MER-STR4-BLK",
+  "category": "Footwear > Running > Road", "price": 179.0, "currency": "SGD",
+  "url": "https://example.com/streamline-4", "availability": "in_stock",
+  "rating": 4.4, "review_count": 218, "size_range": "UK 5 - UK 12 incl. half sizes",
+  "pdp_text": "The Streamline 4 returns with a refined silhouette and our smoothest ride yet. An engineered mesh upper is paired with a full-length AIRFOAM midsole for a plush underfoot feel. Whether you are chasing a personal best or just getting out the door, the Streamline 4 delivers premium comfort mile after mile. Available in black, white and blue colourways.",
+  "bullet_specs": ["Weight: 212g (UK8)", "Midsole: full-length AIRFOAM", "Upper: engineered mesh", "Drop: 8mm", "Outsole: carbon rubber high-wear zones"],
+  "reviews": ["Really comfortable for daily runs, though they run a touch small.", "Bought these for marathon training and they've held up well.", "Feet stayed cooler than my old shoes."]
+},
+{
+  "product_id": "p002", "vertical": "running", "brand": "Meridian",
+  "product_name": "Meridian Streamline 4 Wide", "sku": "MER-STR4-WD",
+  "category": "Footwear > Running > Road", "price": 179.0, "currency": "SGD",
+  "url": "https://example.com/streamline-4-wide", "availability": "in_stock",
+  "rating": 4.6, "review_count": 64, "size_range": "UK 6 - UK 13, 2E width",
+  "pdp_text": "All the comfort of the Streamline 4 in a roomier 2E fit. The same engineered mesh upper and AIRFOAM midsole, with additional volume through the forefoot. Innovative comfort for every foot shape.",
+  "bullet_specs": ["Weight: 224g (UK8)", "Width: 2E", "Midsole: full-length AIRFOAM", "Upper: engineered mesh"],
+  "reviews": ["Finally a shoe that doesn't crush my toes.", "No blisters after 15km, which never happens for me."]
+},
+{
+  "product_id": "p003", "vertical": "running", "brand": "Kestrel",
+  "product_name": "Kestrel Vapour Elite", "sku": "KES-VE-01",
+  "category": "Footwear > Running > Racing", "price": 329.0, "currency": "SGD",
+  "url": "https://example.com/vapour-elite", "availability": "low_stock",
+  "rating": 4.7, "review_count": 91, "size_range": "UK 5 - UK 12",
+  "pdp_text": "Race day, redefined. A carbon fibre propulsion plate sits between two layers of nitrogen-infused foam to return energy with every stride. At just 186g, the Vapour Elite is our lightest racer ever. Tested by elite athletes across three continents.",
+  "bullet_specs": ["Weight: 186g (UK8)", "Carbon fibre plate", "Nitrogen-infused foam", "Drop: 6mm", "Race-day construction"],
+  "reviews": ["Took 90 seconds off my 10K PB.", "Amazing for racing but the foam packs out fast.", "Not a shoe for slow miles."]
+},
+{
+  "product_id": "p004", "vertical": "running", "brand": "Kestrel",
+  "product_name": "Kestrel Daily Cruise", "sku": "KES-DC-05",
+  "category": "Footwear > Running > Road", "price": 109.0, "currency": "SGD",
+  "url": "https://example.com/daily-cruise", "availability": "in_stock",
+  "rating": 4.1, "review_count": 403, "size_range": "UK 4 - UK 13",
+  "pdp_text": "Your everyday running companion. Soft cushioning, a durable rubber outsole and a breathable upper make the Daily Cruise a reliable choice for daily training. Great value for runners of all levels.",
+  "bullet_specs": ["Weight: 268g (UK8)", "EVA midsole", "Rubber outsole", "Breathable mesh upper", "Drop: 10mm"],
+  "reviews": ["Good value shoe, nothing fancy.", "Lasted me 800km which is impressive at this price.", "A bit heavy but very comfortable."]
+},
+{
+  "product_id": "p005", "vertical": "running", "brand": "Terrafirma",
+  "product_name": "Terrafirma Ridgeline GTX", "sku": "TF-RDG-GTX",
+  "category": "Footwear > Running > Trail", "price": 249.0, "currency": "SGD",
+  "url": "https://example.com/ridgeline-gtx", "availability": "in_stock",
+  "rating": 4.5, "review_count": 137, "size_range": "UK 5 - UK 13",
+  "pdp_text": "Built for the mountains. A waterproof GORE-TEX membrane keeps water out while an aggressive 5mm lug outsole grips loose terrain. Reinforced toe cap protects against rock strikes. Take on any trail in any weather.",
+  "bullet_specs": ["Weight: 315g (UK8)", "GORE-TEX waterproof membrane", "5mm lugs", "Rock plate", "Reinforced toe cap"],
+  "reviews": ["Grip is superb on wet rock.", "Too hot for tropical running, my feet were swimming.", "Heavy but bombproof."]
+},
+{
+  "product_id": "p006", "vertical": "running", "brand": "Verda",
+  "product_name": "Verda Loop Recycled Runner", "sku": "VRD-LOOP-01",
+  "category": "Footwear > Running > Road", "price": 159.0, "currency": "SGD",
+  "url": "https://example.com/verda-loop", "availability": "in_stock",
+  "rating": 4.0, "review_count": 88, "size_range": "UK 4 - UK 12",
+  "pdp_text": "Run lighter on the planet. The Loop is made with 72% recycled content including a recycled polyester upper and a bio-based foam midsole. Verda is a certified B Corp and every pair is carbon-offset. Sustainable never looked so good.",
+  "bullet_specs": ["Weight: 245g (UK8)", "72% recycled content", "Bio-based EVA midsole", "Recycled polyester upper", "B Corp certified"],
+  "reviews": ["Love the ethics, ride is just okay.", "Comfortable enough for 5-10km.", "Nice that they publish the material breakdown."]
+},
+{
+  "product_id": "p007", "vertical": "running", "brand": "Meridian",
+  "product_name": "Meridian Cushion Max 9", "sku": "MER-CM9",
+  "category": "Footwear > Running > Road", "price": 199.0, "currency": "SGD",
+  "url": "https://example.com/cushion-max-9", "availability": "in_stock",
+  "rating": 4.5, "review_count": 512, "size_range": "UK 5 - UK 14, standard and 2E",
+  "pdp_text": "Maximum cushioning for maximum comfort. A 38mm stack of AIRFOAM PLUS absorbs impact so you can run longer with less fatigue. Designed with a wider platform for stability. The ultimate long-run shoe.",
+  "bullet_specs": ["Weight: 289g (UK8)", "38mm heel stack", "AIRFOAM PLUS midsole", "Wide stable base", "Drop: 6mm"],
+  "reviews": ["Saved my knees on long runs.", "Great for heavier runners, I'm 95kg and these hold up.", "Too much shoe for anything fast."]
+},
+{
+  "product_id": "p008", "vertical": "running", "brand": "Kestrel",
+  "product_name": "Kestrel Swiftcell Tempo", "sku": "KES-SWT-03",
+  "category": "Footwear > Running > Road", "price": 189.0, "currency": "SGD",
+  "url": "https://example.com/swiftcell-tempo", "availability": "in_stock",
+  "rating": 4.3, "review_count": 156, "size_range": "UK 5 - UK 12",
+  "pdp_text": "For the runs that hurt. A firmer Swiftcell midsole and a lightweight mono-mesh upper make the Tempo our go-to for interval sessions and threshold work. 198g of pure intent.",
+  "bullet_specs": ["Weight: 198g (UK8)", "Swiftcell responsive midsole", "Mono-mesh upper", "Drop: 6mm", "Exposed foam outsole in low-wear zones"],
+  "reviews": ["Perfect for track sessions.", "Upper is very thin, dries in an hour after a sweaty run.", "Not enough cushioning for me over 15km."]
+},
+{
+  "product_id": "p009", "vertical": "skincare", "brand": "Clarra",
+  "product_name": "Clarra Balance Gel Cleanser", "sku": "CLR-BGC-150",
+  "category": "Skincare > Cleansers > Gel", "price": 42.0, "currency": "SGD",
+  "url": "https://example.com/balance-gel", "availability": "in_stock",
+  "rating": 4.6, "review_count": 1204,
+  "pdp_text": "A refreshing gel cleanser that removes excess oil without stripping. Formulated with 2% niacinamide and green tea extract for a clean, balanced finish. Fragrance-free and suitable for daily use. 150ml.",
+  "bullet_specs": ["150ml", "2% niacinamide", "Green tea extract", "Fragrance-free", "pH 5.5", "Vegan and cruelty-free"],
+  "reviews": ["My skin feels clean but not tight.", "Great in humid weather, cuts the shine.", "Took about three weeks to see a difference in congestion."]
+},
+{
+  "product_id": "p010", "vertical": "skincare", "brand": "Clarra",
+  "product_name": "Clarra Overnight Retinal 0.05%", "sku": "CLR-RET-30",
+  "category": "Skincare > Treatments > Retinoid", "price": 78.0, "currency": "SGD",
+  "url": "https://example.com/overnight-retinal", "availability": "in_stock",
+  "rating": 4.4, "review_count": 687,
+  "pdp_text": "A next-generation retinaldehyde serum in a soothing base of ceramides and squalane. Encapsulated for gradual release. Advanced technology for smoother, clearer skin over time. 30ml.",
+  "bullet_specs": ["30ml", "0.05% encapsulated retinaldehyde", "Ceramides and squalane", "Fragrance-free", "Airless pump"],
+  "reviews": ["Gentle enough that I didn't peel.", "Wish the instructions were clearer about how often to use it.", "Works but you need patience."]
+},
+{
+  "product_id": "p011", "vertical": "skincare", "brand": "Sunder",
+  "product_name": "Sunder Daily Fluid SPF50+", "sku": "SND-SPF-50",
+  "category": "Skincare > Sun Care > Face", "price": 39.0, "currency": "SGD",
+  "url": "https://example.com/daily-fluid-spf", "availability": "in_stock",
+  "rating": 4.7, "review_count": 2311,
+  "pdp_text": "A weightless SPF50+ PA++++ fluid that disappears into skin with no white cast. Water-resistant for 40 minutes. Suitable for all skin tones. 50ml.",
+  "bullet_specs": ["50ml", "SPF50+ PA++++", "No white cast", "Water-resistant 40 min", "Non-comedogenic"],
+  "reviews": ["Best sunscreen I've used in this climate, doesn't slide off.", "Layers well under makeup.", "Slight sting near the eyes."]
+},
+{
+  "product_id": "p012", "vertical": "skincare", "brand": "Verda",
+  "product_name": "Verda Refill Moisture Gel", "sku": "VRD-RMG-50",
+  "category": "Skincare > Moisturisers > Gel", "price": 54.0, "currency": "SGD",
+  "url": "https://example.com/refill-moisture-gel", "availability": "in_stock",
+  "rating": 4.2, "review_count": 340,
+  "pdp_text": "A lightweight gel moisturiser in a refillable aluminium bottle. Hyaluronic acid and glycerin draw in moisture without heaviness. COSMOS Organic certified and packaged plastic-free. 50ml.",
+  "bullet_specs": ["50ml refillable", "Hyaluronic acid", "Glycerin", "COSMOS Organic certified", "Plastic-free packaging", "Fragrance-free"],
+  "reviews": ["Perfect texture for humid weather.", "Refills are a bit fiddly.", "Not moisturising enough for my dry patches."]
+}
+]

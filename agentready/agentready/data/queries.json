@@ -1,0 +1,2474 @@
+[
+ {
+  "qid": "q0001",
+  "text": "I'm a first-time half marathon trainee in Singapore, training four times a week in constant humidity. What should I get? I need something lightweight.",
+  "vertical": "running",
+  "persona": "half_marathon_beginner",
+  "intent": "need_fit",
+  "probes": [
+   "climate_suitability",
+   "environment_conditions",
+   "experience_level",
+   "personas",
+   "use_cases"
+  ],
+  "max_price": 200
+ },
+ {
+  "qid": "q0002",
+  "text": "Looking for something under S$200 for first-time half marathon trainee in Singapore. training four times a week in constant humidity. Any recommendations?",
+  "vertical": "running",
+  "persona": "half_marathon_beginner",
+  "intent": "constraint_first",
+  "probes": [
+   "climate_suitability",
+   "environment_conditions",
+   "experience_level",
+   "price_tier",
+   "use_cases",
+   "value_argument"
+  ],
+  "max_price": 200
+ },
+ {
+  "qid": "q0003",
+  "text": "I'm choosing between a few options as first-time half marathon trainee in Singapore. What actually makes one better than another when training four times a week in constant humidity?",
+  "vertical": "running",
+  "persona": "half_marathon_beginner",
+  "intent": "comparison",
+  "probes": [
+   "climate_suitability",
+   "competes_with",
+   "differentiators",
+   "environment_conditions",
+   "experience_level",
+   "use_cases",
+   "why_choose_over"
+  ],
+  "max_price": 200
+ },
+ {
+  "qid": "q0004",
+  "text": "I'm a first-time half marathon trainee in Singapore. training four times a week in constant humidity. What should I avoid, and why?",
+  "vertical": "running",
+  "persona": "half_marathon_beginner",
+  "intent": "disqualify",
+  "probes": [
+   "climate_suitability",
+   "environment_conditions",
+   "experience_level",
+   "known_limitations",
+   "not_suitable_for",
+   "tradeoffs",
+   "use_cases"
+  ],
+  "max_price": 200
+ },
+ {
+  "qid": "q0005",
+  "text": "As first-time half marathon trainee in Singapore, I don't trust marketing copy. Is there any actual evidence this works when training four times a week in constant humidity?",
+  "vertical": "running",
+  "persona": "half_marathon_beginner",
+  "intent": "evidence",
+  "probes": [
+   "climate_suitability",
+   "environment_conditions",
+   "experience_level",
+   "lab_test_refs",
+   "performance_claims",
+   "use_cases",
+   "verified_claims"
+  ],
+  "max_price": 200
+ },
+ {
+  "qid": "q0006",
+  "text": "How much time and effort does this actually take? I'm a first-time half marathon trainee in Singapore, training four times a week in constant humidity.",
+  "vertical": "running",
+  "persona": "half_marathon_beginner",
+  "intent": "how_long",
+  "probes": [
+   "climate_suitability",
+   "environment_conditions",
+   "experience_level",
+   "learning_curve",
+   "time_commitment",
+   "typical_session_duration",
+   "use_cases"
+  ],
+  "max_price": 200
+ },
+ {
+  "qid": "q0007",
+  "text": "What else do I need to make this work? I'm a first-time half marathon trainee in Singapore and training four times a week in constant humidity.",
+  "vertical": "running",
+  "persona": "half_marathon_beginner",
+  "intent": "compatibility",
+  "probes": [
+   "climate_suitability",
+   "compatible_with",
+   "environment_conditions",
+   "experience_level",
+   "pairs_well_with",
+   "requires",
+   "use_cases"
+  ],
+  "max_price": 200
+ },
+ {
+  "qid": "q0008",
+  "text": "Does this hold up in Singapore conditions? I'm a first-time half marathon trainee in Singapore, training four times a week in constant humidity, and I need it under S$200.",
+  "vertical": "running",
+  "persona": "half_marathon_beginner",
+  "intent": "condition_specific",
+  "probes": [
+   "climate_suitability",
+   "environment_conditions",
+   "experience_level",
+   "season",
+   "use_cases"
+  ],
+  "max_price": 200
+ },
+ {
+  "qid": "q0009",
+  "text": "I'm completely new to this. I'm a first-time half marathon trainee in Singapore. Is this a reasonable place to start given training four times a week in constant humidity?",
+  "vertical": "running",
+  "persona": "half_marathon_beginner",
+  "intent": "beginner_safe",
+  "probes": [
+   "climate_suitability",
+   "environment_conditions",
+   "experience_level",
+   "learning_curve",
+   "prerequisites",
+   "use_cases"
+  ],
+  "max_price": 200
+ },
+ {
+  "qid": "q0010",
+  "text": "How long will this last and is it worth the money? Context: a first-time half marathon trainee in Singapore, training four times a week in constant humidity.",
+  "vertical": "running",
+  "persona": "half_marathon_beginner",
+  "intent": "longevity",
+  "probes": [
+   "care_instructions",
+   "climate_suitability",
+   "durability_expectation",
+   "environment_conditions",
+   "experience_level",
+   "price_justification",
+   "use_cases"
+  ],
+  "max_price": 200
+ },
+ {
+  "qid": "q0011",
+  "text": "I'm a heavier runner who lands hard on the heel, knee pain after long runs on pavement. What should I get? I need something maximum cushioning.",
+  "vertical": "running",
+  "persona": "heavy_heel_striker",
+  "intent": "need_fit",
+  "probes": [
+   "body_or_skin_type",
+   "durability_expectation",
+   "key_features",
+   "not_suitable_for",
+   "personas",
+   "use_cases"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0012",
+  "text": "Looking for something maximum cushioning for heavier runner who lands hard on the heel. knee pain after long runs on pavement. Any recommendations?",
+  "vertical": "running",
+  "persona": "heavy_heel_striker",
+  "intent": "constraint_first",
+  "probes": [
+   "body_or_skin_type",
+   "durability_expectation",
+   "key_features",
+   "not_suitable_for",
+   "price_tier",
+   "value_argument"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0013",
+  "text": "I'm choosing between a few options as heavier runner who lands hard on the heel. What actually makes one better than another when knee pain after long runs on pavement?",
+  "vertical": "running",
+  "persona": "heavy_heel_striker",
+  "intent": "comparison",
+  "probes": [
+   "body_or_skin_type",
+   "competes_with",
+   "differentiators",
+   "durability_expectation",
+   "key_features",
+   "not_suitable_for",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0014",
+  "text": "I'm a heavier runner who lands hard on the heel. knee pain after long runs on pavement. What should I avoid, and why?",
+  "vertical": "running",
+  "persona": "heavy_heel_striker",
+  "intent": "disqualify",
+  "probes": [
+   "body_or_skin_type",
+   "durability_expectation",
+   "key_features",
+   "known_limitations",
+   "not_suitable_for",
+   "tradeoffs"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0015",
+  "text": "As heavier runner who lands hard on the heel, I don't trust marketing copy. Is there any actual evidence this works when knee pain after long runs on pavement?",
+  "vertical": "running",
+  "persona": "heavy_heel_striker",
+  "intent": "evidence",
+  "probes": [
+   "body_or_skin_type",
+   "durability_expectation",
+   "key_features",
+   "lab_test_refs",
+   "not_suitable_for",
+   "performance_claims",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0016",
+  "text": "How much time and effort does this actually take? I'm a heavier runner who lands hard on the heel, knee pain after long runs on pavement.",
+  "vertical": "running",
+  "persona": "heavy_heel_striker",
+  "intent": "how_long",
+  "probes": [
+   "body_or_skin_type",
+   "durability_expectation",
+   "key_features",
+   "learning_curve",
+   "not_suitable_for",
+   "time_commitment",
+   "typical_session_duration"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0017",
+  "text": "What else do I need to make this work? I'm a heavier runner who lands hard on the heel and knee pain after long runs on pavement.",
+  "vertical": "running",
+  "persona": "heavy_heel_striker",
+  "intent": "compatibility",
+  "probes": [
+   "body_or_skin_type",
+   "compatible_with",
+   "durability_expectation",
+   "key_features",
+   "not_suitable_for",
+   "pairs_well_with",
+   "requires"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0018",
+  "text": "Does this hold up in Singapore conditions? I'm a heavier runner who lands hard on the heel, knee pain after long runs on pavement, and I need it maximum cushioning.",
+  "vertical": "running",
+  "persona": "heavy_heel_striker",
+  "intent": "condition_specific",
+  "probes": [
+   "body_or_skin_type",
+   "climate_suitability",
+   "durability_expectation",
+   "environment_conditions",
+   "key_features",
+   "not_suitable_for",
+   "season"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0019",
+  "text": "I'm completely new to this. I'm a heavier runner who lands hard on the heel. Is this a reasonable place to start given knee pain after long runs on pavement?",
+  "vertical": "running",
+  "persona": "heavy_heel_striker",
+  "intent": "beginner_safe",
+  "probes": [
+   "body_or_skin_type",
+   "durability_expectation",
+   "experience_level",
+   "key_features",
+   "learning_curve",
+   "not_suitable_for",
+   "prerequisites"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0020",
+  "text": "How long will this last and is it worth the money? Context: a heavier runner who lands hard on the heel, knee pain after long runs on pavement.",
+  "vertical": "running",
+  "persona": "heavy_heel_striker",
+  "intent": "longevity",
+  "probes": [
+   "body_or_skin_type",
+   "care_instructions",
+   "durability_expectation",
+   "key_features",
+   "not_suitable_for",
+   "price_justification"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0021",
+  "text": "I'm an experienced runner chasing a sub-1:45 half, wants a dedicated race-day shoe, trains in something else. What should I get? I need something fast.",
+  "vertical": "running",
+  "persona": "race_day_pb",
+  "intent": "need_fit",
+  "probes": [
+   "experience_level",
+   "occasion",
+   "performance_claims",
+   "personas",
+   "tradeoffs",
+   "use_cases"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0022",
+  "text": "Looking for something willing to pay more for experienced runner chasing sub-1:45 half. wants a dedicated race-day shoe, trains in something else. Any recommendations?",
+  "vertical": "running",
+  "persona": "race_day_pb",
+  "intent": "constraint_first",
+  "probes": [
+   "experience_level",
+   "occasion",
+   "performance_claims",
+   "price_tier",
+   "tradeoffs",
+   "value_argument"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0023",
+  "text": "I'm choosing between a few options as experienced runner chasing sub-1:45 half. What actually makes one better than another when wants a dedicated race-day shoe, trains in something else?",
+  "vertical": "running",
+  "persona": "race_day_pb",
+  "intent": "comparison",
+  "probes": [
+   "competes_with",
+   "differentiators",
+   "experience_level",
+   "occasion",
+   "performance_claims",
+   "tradeoffs",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0024",
+  "text": "I'm an experienced runner chasing a sub-1:45 half. wants a dedicated race-day shoe, trains in something else. What should I avoid, and why?",
+  "vertical": "running",
+  "persona": "race_day_pb",
+  "intent": "disqualify",
+  "probes": [
+   "experience_level",
+   "known_limitations",
+   "not_suitable_for",
+   "occasion",
+   "performance_claims",
+   "tradeoffs"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0025",
+  "text": "As experienced runner chasing sub-1:45 half, I don't trust marketing copy. Is there any actual evidence this works when wants a dedicated race-day shoe, trains in something else?",
+  "vertical": "running",
+  "persona": "race_day_pb",
+  "intent": "evidence",
+  "probes": [
+   "experience_level",
+   "lab_test_refs",
+   "occasion",
+   "performance_claims",
+   "tradeoffs",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0026",
+  "text": "How much time and effort does this actually take? I'm an experienced runner chasing a sub-1:45 half, wants a dedicated race-day shoe, trains in something else.",
+  "vertical": "running",
+  "persona": "race_day_pb",
+  "intent": "how_long",
+  "probes": [
+   "experience_level",
+   "learning_curve",
+   "occasion",
+   "performance_claims",
+   "time_commitment",
+   "tradeoffs",
+   "typical_session_duration"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0027",
+  "text": "What else do I need to make this work? I'm an experienced runner chasing a sub-1:45 half and wants a dedicated race-day shoe, trains in something else.",
+  "vertical": "running",
+  "persona": "race_day_pb",
+  "intent": "compatibility",
+  "probes": [
+   "compatible_with",
+   "experience_level",
+   "occasion",
+   "pairs_well_with",
+   "performance_claims",
+   "requires",
+   "tradeoffs"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0028",
+  "text": "Does this hold up in Singapore conditions? I'm an experienced runner chasing a sub-1:45 half, wants a dedicated race-day shoe, trains in something else, and I need it fast.",
+  "vertical": "running",
+  "persona": "race_day_pb",
+  "intent": "condition_specific",
+  "probes": [
+   "climate_suitability",
+   "environment_conditions",
+   "experience_level",
+   "occasion",
+   "performance_claims",
+   "season",
+   "tradeoffs"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0029",
+  "text": "I'm completely new to this. I'm an experienced runner chasing a sub-1:45 half. Is this a reasonable place to start given wants a dedicated race-day shoe, trains in something else?",
+  "vertical": "running",
+  "persona": "race_day_pb",
+  "intent": "beginner_safe",
+  "probes": [
+   "experience_level",
+   "learning_curve",
+   "occasion",
+   "performance_claims",
+   "prerequisites",
+   "tradeoffs"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0030",
+  "text": "How long will this last and is it worth the money? Context: an experienced runner chasing a sub-1:45 half, wants a dedicated race-day shoe, trains in something else.",
+  "vertical": "running",
+  "persona": "race_day_pb",
+  "intent": "longevity",
+  "probes": [
+   "care_instructions",
+   "durability_expectation",
+   "experience_level",
+   "occasion",
+   "performance_claims",
+   "price_justification",
+   "tradeoffs"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0031",
+  "text": "I'm someone who only runs indoors on a treadmill, lives in a condo, runs before work. What should I get? I need something no outdoor grip needed.",
+  "vertical": "running",
+  "persona": "treadmill_only",
+  "intent": "need_fit",
+  "probes": [
+   "environment_conditions",
+   "not_suitable_for",
+   "occasion",
+   "personas",
+   "use_cases"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0032",
+  "text": "Looking for something quiet for someone who only runs indoors on treadmill. lives in a condo, runs before work. Any recommendations?",
+  "vertical": "running",
+  "persona": "treadmill_only",
+  "intent": "constraint_first",
+  "probes": [
+   "environment_conditions",
+   "not_suitable_for",
+   "occasion",
+   "price_tier",
+   "value_argument"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0033",
+  "text": "I'm choosing between a few options as someone who only runs indoors on treadmill. What actually makes one better than another when lives in a condo, runs before work?",
+  "vertical": "running",
+  "persona": "treadmill_only",
+  "intent": "comparison",
+  "probes": [
+   "competes_with",
+   "differentiators",
+   "environment_conditions",
+   "not_suitable_for",
+   "occasion",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0034",
+  "text": "I'm someone who only runs indoors on a treadmill. lives in a condo, runs before work. What should I avoid, and why?",
+  "vertical": "running",
+  "persona": "treadmill_only",
+  "intent": "disqualify",
+  "probes": [
+   "environment_conditions",
+   "known_limitations",
+   "not_suitable_for",
+   "occasion",
+   "tradeoffs"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0035",
+  "text": "As someone who only runs indoors on treadmill, I don't trust marketing copy. Is there any actual evidence this works when lives in a condo, runs before work?",
+  "vertical": "running",
+  "persona": "treadmill_only",
+  "intent": "evidence",
+  "probes": [
+   "environment_conditions",
+   "lab_test_refs",
+   "not_suitable_for",
+   "occasion",
+   "performance_claims",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0036",
+  "text": "How much time and effort does this actually take? I'm someone who only runs indoors on a treadmill, lives in a condo, runs before work.",
+  "vertical": "running",
+  "persona": "treadmill_only",
+  "intent": "how_long",
+  "probes": [
+   "environment_conditions",
+   "learning_curve",
+   "not_suitable_for",
+   "occasion",
+   "time_commitment",
+   "typical_session_duration"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0037",
+  "text": "What else do I need to make this work? I'm someone who only runs indoors on a treadmill and lives in a condo, runs before work.",
+  "vertical": "running",
+  "persona": "treadmill_only",
+  "intent": "compatibility",
+  "probes": [
+   "compatible_with",
+   "environment_conditions",
+   "not_suitable_for",
+   "occasion",
+   "pairs_well_with",
+   "requires"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0038",
+  "text": "Does this hold up in Singapore conditions? I'm someone who only runs indoors on a treadmill, lives in a condo, runs before work, and I need it quiet.",
+  "vertical": "running",
+  "persona": "treadmill_only",
+  "intent": "condition_specific",
+  "probes": [
+   "climate_suitability",
+   "environment_conditions",
+   "not_suitable_for",
+   "occasion",
+   "season"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0039",
+  "text": "I'm completely new to this. I'm someone who only runs indoors on a treadmill. Is this a reasonable place to start given lives in a condo, runs before work?",
+  "vertical": "running",
+  "persona": "treadmill_only",
+  "intent": "beginner_safe",
+  "probes": [
+   "environment_conditions",
+   "experience_level",
+   "learning_curve",
+   "not_suitable_for",
+   "occasion",
+   "prerequisites"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0040",
+  "text": "How long will this last and is it worth the money? Context: someone who only runs indoors on a treadmill, lives in a condo, runs before work.",
+  "vertical": "running",
+  "persona": "treadmill_only",
+  "intent": "longevity",
+  "probes": [
+   "care_instructions",
+   "durability_expectation",
+   "environment_conditions",
+   "not_suitable_for",
+   "occasion",
+   "price_justification"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0041",
+  "text": "I'm a runner with wide feet who keeps getting blisters, every shoe pinches across the forefoot. What should I get? I need something wide fit available.",
+  "vertical": "running",
+  "persona": "wide_feet",
+  "intent": "need_fit",
+  "probes": [
+   "body_or_skin_type",
+   "common_complaints",
+   "personas",
+   "size_range",
+   "use_cases",
+   "variant_axes"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0042",
+  "text": "Looking for something wide fit available for runner with wide feet who keeps getting blisters. every shoe pinches across the forefoot. Any recommendations?",
+  "vertical": "running",
+  "persona": "wide_feet",
+  "intent": "constraint_first",
+  "probes": [
+   "body_or_skin_type",
+   "common_complaints",
+   "price_tier",
+   "size_range",
+   "value_argument",
+   "variant_axes"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0043",
+  "text": "I'm choosing between a few options as runner with wide feet who keeps getting blisters. What actually makes one better than another when every shoe pinches across the forefoot?",
+  "vertical": "running",
+  "persona": "wide_feet",
+  "intent": "comparison",
+  "probes": [
+   "body_or_skin_type",
+   "common_complaints",
+   "competes_with",
+   "differentiators",
+   "size_range",
+   "variant_axes",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0044",
+  "text": "I'm a runner with wide feet who keeps getting blisters. every shoe pinches across the forefoot. What should I avoid, and why?",
+  "vertical": "running",
+  "persona": "wide_feet",
+  "intent": "disqualify",
+  "probes": [
+   "body_or_skin_type",
+   "common_complaints",
+   "known_limitations",
+   "not_suitable_for",
+   "size_range",
+   "tradeoffs",
+   "variant_axes"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0045",
+  "text": "As runner with wide feet who keeps getting blisters, I don't trust marketing copy. Is there any actual evidence this works when every shoe pinches across the forefoot?",
+  "vertical": "running",
+  "persona": "wide_feet",
+  "intent": "evidence",
+  "probes": [
+   "body_or_skin_type",
+   "common_complaints",
+   "lab_test_refs",
+   "performance_claims",
+   "size_range",
+   "variant_axes",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0046",
+  "text": "How much time and effort does this actually take? I'm a runner with wide feet who keeps getting blisters, every shoe pinches across the forefoot.",
+  "vertical": "running",
+  "persona": "wide_feet",
+  "intent": "how_long",
+  "probes": [
+   "body_or_skin_type",
+   "common_complaints",
+   "learning_curve",
+   "size_range",
+   "time_commitment",
+   "typical_session_duration",
+   "variant_axes"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0047",
+  "text": "What else do I need to make this work? I'm a runner with wide feet who keeps getting blisters and every shoe pinches across the forefoot.",
+  "vertical": "running",
+  "persona": "wide_feet",
+  "intent": "compatibility",
+  "probes": [
+   "body_or_skin_type",
+   "common_complaints",
+   "compatible_with",
+   "pairs_well_with",
+   "requires",
+   "size_range",
+   "variant_axes"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0048",
+  "text": "Does this hold up in Singapore conditions? I'm a runner with wide feet who keeps getting blisters, every shoe pinches across the forefoot, and I need it wide fit available.",
+  "vertical": "running",
+  "persona": "wide_feet",
+  "intent": "condition_specific",
+  "probes": [
+   "body_or_skin_type",
+   "climate_suitability",
+   "common_complaints",
+   "environment_conditions",
+   "season",
+   "size_range",
+   "variant_axes"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0049",
+  "text": "I'm completely new to this. I'm a runner with wide feet who keeps getting blisters. Is this a reasonable place to start given every shoe pinches across the forefoot?",
+  "vertical": "running",
+  "persona": "wide_feet",
+  "intent": "beginner_safe",
+  "probes": [
+   "body_or_skin_type",
+   "common_complaints",
+   "experience_level",
+   "learning_curve",
+   "prerequisites",
+   "size_range",
+   "variant_axes"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0050",
+  "text": "How long will this last and is it worth the money? Context: a runner with wide feet who keeps getting blisters, every shoe pinches across the forefoot.",
+  "vertical": "running",
+  "persona": "wide_feet",
+  "intent": "longevity",
+  "probes": [
+   "body_or_skin_type",
+   "care_instructions",
+   "common_complaints",
+   "durability_expectation",
+   "price_justification",
+   "size_range",
+   "variant_axes"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0051",
+  "text": "I'm a shopper who buys only from credibly sustainable brands, distrusts greenwashing, wants proof. What should I get? I need something verifiable certification.",
+  "vertical": "running",
+  "persona": "sustainable_shopper",
+  "intent": "need_fit",
+  "probes": [
+   "certifications",
+   "lab_test_refs",
+   "materials",
+   "personas",
+   "use_cases",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0052",
+  "text": "Looking for something verifiable certification for shopper who buys only from credibly sustainable brands. distrusts greenwashing, wants proof. Any recommendations?",
+  "vertical": "running",
+  "persona": "sustainable_shopper",
+  "intent": "constraint_first",
+  "probes": [
+   "certifications",
+   "lab_test_refs",
+   "materials",
+   "price_tier",
+   "value_argument",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0053",
+  "text": "I'm choosing between a few options as shopper who buys only from credibly sustainable brands. What actually makes one better than another when distrusts greenwashing, wants proof?",
+  "vertical": "running",
+  "persona": "sustainable_shopper",
+  "intent": "comparison",
+  "probes": [
+   "certifications",
+   "competes_with",
+   "differentiators",
+   "lab_test_refs",
+   "materials",
+   "verified_claims",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0054",
+  "text": "I'm a shopper who buys only from credibly sustainable brands. distrusts greenwashing, wants proof. What should I avoid, and why?",
+  "vertical": "running",
+  "persona": "sustainable_shopper",
+  "intent": "disqualify",
+  "probes": [
+   "certifications",
+   "known_limitations",
+   "lab_test_refs",
+   "materials",
+   "not_suitable_for",
+   "tradeoffs",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0055",
+  "text": "As shopper who buys only from credibly sustainable brands, I don't trust marketing copy. Is there any actual evidence this works when distrusts greenwashing, wants proof?",
+  "vertical": "running",
+  "persona": "sustainable_shopper",
+  "intent": "evidence",
+  "probes": [
+   "certifications",
+   "lab_test_refs",
+   "materials",
+   "performance_claims",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0056",
+  "text": "How much time and effort does this actually take? I'm a shopper who buys only from credibly sustainable brands, distrusts greenwashing, wants proof.",
+  "vertical": "running",
+  "persona": "sustainable_shopper",
+  "intent": "how_long",
+  "probes": [
+   "certifications",
+   "lab_test_refs",
+   "learning_curve",
+   "materials",
+   "time_commitment",
+   "typical_session_duration",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0057",
+  "text": "What else do I need to make this work? I'm a shopper who buys only from credibly sustainable brands and distrusts greenwashing, wants proof.",
+  "vertical": "running",
+  "persona": "sustainable_shopper",
+  "intent": "compatibility",
+  "probes": [
+   "certifications",
+   "compatible_with",
+   "lab_test_refs",
+   "materials",
+   "pairs_well_with",
+   "requires",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0058",
+  "text": "Does this hold up in Singapore conditions? I'm a shopper who buys only from credibly sustainable brands, distrusts greenwashing, wants proof, and I need it recycled materials.",
+  "vertical": "running",
+  "persona": "sustainable_shopper",
+  "intent": "condition_specific",
+  "probes": [
+   "certifications",
+   "climate_suitability",
+   "environment_conditions",
+   "lab_test_refs",
+   "materials",
+   "season",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0059",
+  "text": "I'm completely new to this. I'm a shopper who buys only from credibly sustainable brands. Is this a reasonable place to start given distrusts greenwashing, wants proof?",
+  "vertical": "running",
+  "persona": "sustainable_shopper",
+  "intent": "beginner_safe",
+  "probes": [
+   "certifications",
+   "experience_level",
+   "lab_test_refs",
+   "learning_curve",
+   "materials",
+   "prerequisites",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0060",
+  "text": "How long will this last and is it worth the money? Context: a shopper who buys only from credibly sustainable brands, distrusts greenwashing, wants proof.",
+  "vertical": "running",
+  "persona": "sustainable_shopper",
+  "intent": "longevity",
+  "probes": [
+   "care_instructions",
+   "certifications",
+   "durability_expectation",
+   "lab_test_refs",
+   "materials",
+   "price_justification",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0061",
+  "text": "I'm a run-commuter during monsoon season, runs to the office in unpredictable downpours. What should I get? I need something grip on wet ground.",
+  "vertical": "running",
+  "persona": "rainy_commuter",
+  "intent": "need_fit",
+  "probes": [
+   "care_instructions",
+   "environment_conditions",
+   "key_features",
+   "personas",
+   "season",
+   "use_cases"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0062",
+  "text": "Looking for something grip on wet ground for run-commuter during monsoon season. runs to the office in unpredictable downpours. Any recommendations?",
+  "vertical": "running",
+  "persona": "rainy_commuter",
+  "intent": "constraint_first",
+  "probes": [
+   "care_instructions",
+   "environment_conditions",
+   "key_features",
+   "price_tier",
+   "season",
+   "value_argument"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0063",
+  "text": "I'm choosing between a few options as run-commuter during monsoon season. What actually makes one better than another when runs to the office in unpredictable downpours?",
+  "vertical": "running",
+  "persona": "rainy_commuter",
+  "intent": "comparison",
+  "probes": [
+   "care_instructions",
+   "competes_with",
+   "differentiators",
+   "environment_conditions",
+   "key_features",
+   "season",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0064",
+  "text": "I'm a run-commuter during monsoon season. runs to the office in unpredictable downpours. What should I avoid, and why?",
+  "vertical": "running",
+  "persona": "rainy_commuter",
+  "intent": "disqualify",
+  "probes": [
+   "care_instructions",
+   "environment_conditions",
+   "key_features",
+   "known_limitations",
+   "not_suitable_for",
+   "season",
+   "tradeoffs"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0065",
+  "text": "As run-commuter during monsoon season, I don't trust marketing copy. Is there any actual evidence this works when runs to the office in unpredictable downpours?",
+  "vertical": "running",
+  "persona": "rainy_commuter",
+  "intent": "evidence",
+  "probes": [
+   "care_instructions",
+   "environment_conditions",
+   "key_features",
+   "lab_test_refs",
+   "performance_claims",
+   "season",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0066",
+  "text": "How much time and effort does this actually take? I'm a run-commuter during monsoon season, runs to the office in unpredictable downpours.",
+  "vertical": "running",
+  "persona": "rainy_commuter",
+  "intent": "how_long",
+  "probes": [
+   "care_instructions",
+   "environment_conditions",
+   "key_features",
+   "learning_curve",
+   "season",
+   "time_commitment",
+   "typical_session_duration"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0067",
+  "text": "What else do I need to make this work? I'm a run-commuter during monsoon season and runs to the office in unpredictable downpours.",
+  "vertical": "running",
+  "persona": "rainy_commuter",
+  "intent": "compatibility",
+  "probes": [
+   "care_instructions",
+   "compatible_with",
+   "environment_conditions",
+   "key_features",
+   "pairs_well_with",
+   "requires",
+   "season"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0068",
+  "text": "Does this hold up in Singapore conditions? I'm a run-commuter during monsoon season, runs to the office in unpredictable downpours, and I need it quick-drying.",
+  "vertical": "running",
+  "persona": "rainy_commuter",
+  "intent": "condition_specific",
+  "probes": [
+   "care_instructions",
+   "climate_suitability",
+   "environment_conditions",
+   "key_features",
+   "season"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0069",
+  "text": "I'm completely new to this. I'm a run-commuter during monsoon season. Is this a reasonable place to start given runs to the office in unpredictable downpours?",
+  "vertical": "running",
+  "persona": "rainy_commuter",
+  "intent": "beginner_safe",
+  "probes": [
+   "care_instructions",
+   "environment_conditions",
+   "experience_level",
+   "key_features",
+   "learning_curve",
+   "prerequisites",
+   "season"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0070",
+  "text": "How long will this last and is it worth the money? Context: a run-commuter during monsoon season, runs to the office in unpredictable downpours.",
+  "vertical": "running",
+  "persona": "rainy_commuter",
+  "intent": "longevity",
+  "probes": [
+   "care_instructions",
+   "durability_expectation",
+   "environment_conditions",
+   "key_features",
+   "price_justification",
+   "season"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0071",
+  "text": "I'm a student starting to run for the first time, not sure they will stick with it, low budget. What should I get? I need something does not need to be fancy.",
+  "vertical": "running",
+  "persona": "budget_starter",
+  "intent": "need_fit",
+  "probes": [
+   "experience_level",
+   "learning_curve",
+   "personas",
+   "price_tier",
+   "use_cases",
+   "value_argument"
+  ],
+  "max_price": 120
+ },
+ {
+  "qid": "q0072",
+  "text": "Looking for something does not need to be fancy for student starting to run for the first time. not sure they will stick with it, low budget. Any recommendations?",
+  "vertical": "running",
+  "persona": "budget_starter",
+  "intent": "constraint_first",
+  "probes": [
+   "experience_level",
+   "learning_curve",
+   "price_tier",
+   "value_argument"
+  ],
+  "max_price": 120
+ },
+ {
+  "qid": "q0073",
+  "text": "I'm choosing between a few options as student starting to run for the first time. What actually makes one better than another when not sure they will stick with it, low budget?",
+  "vertical": "running",
+  "persona": "budget_starter",
+  "intent": "comparison",
+  "probes": [
+   "competes_with",
+   "differentiators",
+   "experience_level",
+   "learning_curve",
+   "price_tier",
+   "value_argument",
+   "why_choose_over"
+  ],
+  "max_price": 120
+ },
+ {
+  "qid": "q0074",
+  "text": "I'm a student starting to run for the first time. not sure they will stick with it, low budget. What should I avoid, and why?",
+  "vertical": "running",
+  "persona": "budget_starter",
+  "intent": "disqualify",
+  "probes": [
+   "experience_level",
+   "known_limitations",
+   "learning_curve",
+   "not_suitable_for",
+   "price_tier",
+   "tradeoffs",
+   "value_argument"
+  ],
+  "max_price": 120
+ },
+ {
+  "qid": "q0075",
+  "text": "As student starting to run for the first time, I don't trust marketing copy. Is there any actual evidence this works when not sure they will stick with it, low budget?",
+  "vertical": "running",
+  "persona": "budget_starter",
+  "intent": "evidence",
+  "probes": [
+   "experience_level",
+   "lab_test_refs",
+   "learning_curve",
+   "performance_claims",
+   "price_tier",
+   "value_argument",
+   "verified_claims"
+  ],
+  "max_price": 120
+ },
+ {
+  "qid": "q0076",
+  "text": "How much time and effort does this actually take? I'm a student starting to run for the first time, not sure they will stick with it, low budget.",
+  "vertical": "running",
+  "persona": "budget_starter",
+  "intent": "how_long",
+  "probes": [
+   "experience_level",
+   "learning_curve",
+   "price_tier",
+   "time_commitment",
+   "typical_session_duration",
+   "value_argument"
+  ],
+  "max_price": 120
+ },
+ {
+  "qid": "q0077",
+  "text": "What else do I need to make this work? I'm a student starting to run for the first time and not sure they will stick with it, low budget.",
+  "vertical": "running",
+  "persona": "budget_starter",
+  "intent": "compatibility",
+  "probes": [
+   "compatible_with",
+   "experience_level",
+   "learning_curve",
+   "pairs_well_with",
+   "price_tier",
+   "requires",
+   "value_argument"
+  ],
+  "max_price": 120
+ },
+ {
+  "qid": "q0078",
+  "text": "Does this hold up in Singapore conditions? I'm a student starting to run for the first time, not sure they will stick with it, low budget, and I need it does not need to be fancy.",
+  "vertical": "running",
+  "persona": "budget_starter",
+  "intent": "condition_specific",
+  "probes": [
+   "climate_suitability",
+   "environment_conditions",
+   "experience_level",
+   "learning_curve",
+   "price_tier",
+   "season",
+   "value_argument"
+  ],
+  "max_price": 120
+ },
+ {
+  "qid": "q0079",
+  "text": "I'm completely new to this. I'm a student starting to run for the first time. Is this a reasonable place to start given not sure they will stick with it, low budget?",
+  "vertical": "running",
+  "persona": "budget_starter",
+  "intent": "beginner_safe",
+  "probes": [
+   "experience_level",
+   "learning_curve",
+   "prerequisites",
+   "price_tier",
+   "value_argument"
+  ],
+  "max_price": 120
+ },
+ {
+  "qid": "q0080",
+  "text": "How long will this last and is it worth the money? Context: a student starting to run for the first time, not sure they will stick with it, low budget.",
+  "vertical": "running",
+  "persona": "budget_starter",
+  "intent": "longevity",
+  "probes": [
+   "care_instructions",
+   "durability_expectation",
+   "experience_level",
+   "learning_curve",
+   "price_justification",
+   "price_tier",
+   "value_argument"
+  ],
+  "max_price": 120
+ },
+ {
+  "qid": "q0081",
+  "text": "I'm someone with oily, congested skin in a tropical climate, wants a full morning routine done in under five minutes. What should I get? I need something under 5 minutes.",
+  "vertical": "skincare",
+  "persona": "oily_skin_fast_routine",
+  "intent": "need_fit",
+  "probes": [
+   "body_or_skin_type",
+   "environment_conditions",
+   "pairs_well_with",
+   "personas",
+   "time_commitment",
+   "use_cases"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0082",
+  "text": "Looking for something non-greasy for someone with oily, congested skin in tropical climate. wants a full morning routine done in under five minutes. Any recommendations?",
+  "vertical": "skincare",
+  "persona": "oily_skin_fast_routine",
+  "intent": "constraint_first",
+  "probes": [
+   "body_or_skin_type",
+   "environment_conditions",
+   "pairs_well_with",
+   "price_tier",
+   "time_commitment",
+   "value_argument"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0083",
+  "text": "I'm choosing between a few options as someone with oily, congested skin in tropical climate. What actually makes one better than another when wants a full morning routine done in under five minutes?",
+  "vertical": "skincare",
+  "persona": "oily_skin_fast_routine",
+  "intent": "comparison",
+  "probes": [
+   "body_or_skin_type",
+   "competes_with",
+   "differentiators",
+   "environment_conditions",
+   "pairs_well_with",
+   "time_commitment",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0084",
+  "text": "I'm someone with oily, congested skin in a tropical climate. wants a full morning routine done in under five minutes. What should I avoid, and why?",
+  "vertical": "skincare",
+  "persona": "oily_skin_fast_routine",
+  "intent": "disqualify",
+  "probes": [
+   "body_or_skin_type",
+   "environment_conditions",
+   "known_limitations",
+   "not_suitable_for",
+   "pairs_well_with",
+   "time_commitment",
+   "tradeoffs"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0085",
+  "text": "As someone with oily, congested skin in tropical climate, I don't trust marketing copy. Is there any actual evidence this works when wants a full morning routine done in under five minutes?",
+  "vertical": "skincare",
+  "persona": "oily_skin_fast_routine",
+  "intent": "evidence",
+  "probes": [
+   "body_or_skin_type",
+   "environment_conditions",
+   "lab_test_refs",
+   "pairs_well_with",
+   "performance_claims",
+   "time_commitment",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0086",
+  "text": "How much time and effort does this actually take? I'm someone with oily, congested skin in a tropical climate, wants a full morning routine done in under five minutes.",
+  "vertical": "skincare",
+  "persona": "oily_skin_fast_routine",
+  "intent": "how_long",
+  "probes": [
+   "body_or_skin_type",
+   "environment_conditions",
+   "learning_curve",
+   "pairs_well_with",
+   "time_commitment",
+   "typical_session_duration"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0087",
+  "text": "What else do I need to make this work? I'm someone with oily, congested skin in a tropical climate and wants a full morning routine done in under five minutes.",
+  "vertical": "skincare",
+  "persona": "oily_skin_fast_routine",
+  "intent": "compatibility",
+  "probes": [
+   "body_or_skin_type",
+   "compatible_with",
+   "environment_conditions",
+   "pairs_well_with",
+   "requires",
+   "time_commitment"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0088",
+  "text": "Does this hold up in Singapore conditions? I'm someone with oily, congested skin in a tropical climate, wants a full morning routine done in under five minutes, and I need it sustainable.",
+  "vertical": "skincare",
+  "persona": "oily_skin_fast_routine",
+  "intent": "condition_specific",
+  "probes": [
+   "body_or_skin_type",
+   "climate_suitability",
+   "environment_conditions",
+   "pairs_well_with",
+   "season",
+   "time_commitment"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0089",
+  "text": "I'm completely new to this. I'm someone with oily, congested skin in a tropical climate. Is this a reasonable place to start given wants a full morning routine done in under five minutes?",
+  "vertical": "skincare",
+  "persona": "oily_skin_fast_routine",
+  "intent": "beginner_safe",
+  "probes": [
+   "body_or_skin_type",
+   "environment_conditions",
+   "experience_level",
+   "learning_curve",
+   "pairs_well_with",
+   "prerequisites",
+   "time_commitment"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0090",
+  "text": "How long will this last and is it worth the money? Context: someone with oily, congested skin in a tropical climate, wants a full morning routine done in under five minutes.",
+  "vertical": "skincare",
+  "persona": "oily_skin_fast_routine",
+  "intent": "longevity",
+  "probes": [
+   "body_or_skin_type",
+   "care_instructions",
+   "durability_expectation",
+   "environment_conditions",
+   "pairs_well_with",
+   "price_justification",
+   "time_commitment"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0091",
+  "text": "I'm a person with reactive, easily irritated skin, has reacted badly to strong actives before. What should I get? I need something clear ingredient list.",
+  "vertical": "skincare",
+  "persona": "sensitive_reactive",
+  "intent": "need_fit",
+  "probes": [
+   "allergens",
+   "contraindications",
+   "ingredients",
+   "not_suitable_for",
+   "personas",
+   "use_cases"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0092",
+  "text": "Looking for something clear ingredient list for person with reactive, easily irritated skin. has reacted badly to strong actives before. Any recommendations?",
+  "vertical": "skincare",
+  "persona": "sensitive_reactive",
+  "intent": "constraint_first",
+  "probes": [
+   "allergens",
+   "contraindications",
+   "ingredients",
+   "not_suitable_for",
+   "price_tier",
+   "value_argument"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0093",
+  "text": "I'm choosing between a few options as person with reactive, easily irritated skin. What actually makes one better than another when has reacted badly to strong actives before?",
+  "vertical": "skincare",
+  "persona": "sensitive_reactive",
+  "intent": "comparison",
+  "probes": [
+   "allergens",
+   "competes_with",
+   "contraindications",
+   "differentiators",
+   "ingredients",
+   "not_suitable_for",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0094",
+  "text": "I'm a person with reactive, easily irritated skin. has reacted badly to strong actives before. What should I avoid, and why?",
+  "vertical": "skincare",
+  "persona": "sensitive_reactive",
+  "intent": "disqualify",
+  "probes": [
+   "allergens",
+   "contraindications",
+   "ingredients",
+   "known_limitations",
+   "not_suitable_for",
+   "tradeoffs"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0095",
+  "text": "As person with reactive, easily irritated skin, I don't trust marketing copy. Is there any actual evidence this works when has reacted badly to strong actives before?",
+  "vertical": "skincare",
+  "persona": "sensitive_reactive",
+  "intent": "evidence",
+  "probes": [
+   "allergens",
+   "contraindications",
+   "ingredients",
+   "lab_test_refs",
+   "not_suitable_for",
+   "performance_claims",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0096",
+  "text": "How much time and effort does this actually take? I'm a person with reactive, easily irritated skin, has reacted badly to strong actives before.",
+  "vertical": "skincare",
+  "persona": "sensitive_reactive",
+  "intent": "how_long",
+  "probes": [
+   "allergens",
+   "contraindications",
+   "ingredients",
+   "learning_curve",
+   "not_suitable_for",
+   "time_commitment",
+   "typical_session_duration"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0097",
+  "text": "What else do I need to make this work? I'm a person with reactive, easily irritated skin and has reacted badly to strong actives before.",
+  "vertical": "skincare",
+  "persona": "sensitive_reactive",
+  "intent": "compatibility",
+  "probes": [
+   "allergens",
+   "compatible_with",
+   "contraindications",
+   "ingredients",
+   "not_suitable_for",
+   "pairs_well_with",
+   "requires"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0098",
+  "text": "Does this hold up in Singapore conditions? I'm a person with reactive, easily irritated skin, has reacted badly to strong actives before, and I need it clear ingredient list.",
+  "vertical": "skincare",
+  "persona": "sensitive_reactive",
+  "intent": "condition_specific",
+  "probes": [
+   "allergens",
+   "climate_suitability",
+   "contraindications",
+   "environment_conditions",
+   "ingredients",
+   "not_suitable_for",
+   "season"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0099",
+  "text": "I'm completely new to this. I'm a person with reactive, easily irritated skin. Is this a reasonable place to start given has reacted badly to strong actives before?",
+  "vertical": "skincare",
+  "persona": "sensitive_reactive",
+  "intent": "beginner_safe",
+  "probes": [
+   "allergens",
+   "contraindications",
+   "experience_level",
+   "ingredients",
+   "learning_curve",
+   "not_suitable_for",
+   "prerequisites"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0100",
+  "text": "How long will this last and is it worth the money? Context: a person with reactive, easily irritated skin, has reacted badly to strong actives before.",
+  "vertical": "skincare",
+  "persona": "sensitive_reactive",
+  "intent": "longevity",
+  "probes": [
+   "allergens",
+   "care_instructions",
+   "contraindications",
+   "durability_expectation",
+   "ingredients",
+   "not_suitable_for",
+   "price_justification"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0101",
+  "text": "I'm someone new to retinol and nervous about it, read conflicting advice online, worried about peeling. What should I get? I need something clear instructions.",
+  "vertical": "skincare",
+  "persona": "actives_curious",
+  "intent": "need_fit",
+  "probes": [
+   "active_ingredients",
+   "anticipated_qa",
+   "experience_level",
+   "learning_curve",
+   "personas",
+   "use_cases"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0102",
+  "text": "Looking for something clear instructions for someone new to retinol and nervous about it. read conflicting advice online, worried about peeling. Any recommendations?",
+  "vertical": "skincare",
+  "persona": "actives_curious",
+  "intent": "constraint_first",
+  "probes": [
+   "active_ingredients",
+   "anticipated_qa",
+   "experience_level",
+   "learning_curve",
+   "price_tier",
+   "value_argument"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0103",
+  "text": "I'm choosing between a few options as someone new to retinol and nervous about it. What actually makes one better than another when read conflicting advice online, worried about peeling?",
+  "vertical": "skincare",
+  "persona": "actives_curious",
+  "intent": "comparison",
+  "probes": [
+   "active_ingredients",
+   "anticipated_qa",
+   "competes_with",
+   "differentiators",
+   "experience_level",
+   "learning_curve",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0104",
+  "text": "I'm someone new to retinol and nervous about it. read conflicting advice online, worried about peeling. What should I avoid, and why?",
+  "vertical": "skincare",
+  "persona": "actives_curious",
+  "intent": "disqualify",
+  "probes": [
+   "active_ingredients",
+   "anticipated_qa",
+   "experience_level",
+   "known_limitations",
+   "learning_curve",
+   "not_suitable_for",
+   "tradeoffs"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0105",
+  "text": "As someone new to retinol and nervous about it, I don't trust marketing copy. Is there any actual evidence this works when read conflicting advice online, worried about peeling?",
+  "vertical": "skincare",
+  "persona": "actives_curious",
+  "intent": "evidence",
+  "probes": [
+   "active_ingredients",
+   "anticipated_qa",
+   "experience_level",
+   "lab_test_refs",
+   "learning_curve",
+   "performance_claims",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0106",
+  "text": "How much time and effort does this actually take? I'm someone new to retinol and nervous about it, read conflicting advice online, worried about peeling.",
+  "vertical": "skincare",
+  "persona": "actives_curious",
+  "intent": "how_long",
+  "probes": [
+   "active_ingredients",
+   "anticipated_qa",
+   "experience_level",
+   "learning_curve",
+   "time_commitment",
+   "typical_session_duration"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0107",
+  "text": "What else do I need to make this work? I'm someone new to retinol and nervous about it and read conflicting advice online, worried about peeling.",
+  "vertical": "skincare",
+  "persona": "actives_curious",
+  "intent": "compatibility",
+  "probes": [
+   "active_ingredients",
+   "anticipated_qa",
+   "compatible_with",
+   "experience_level",
+   "learning_curve",
+   "pairs_well_with",
+   "requires"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0108",
+  "text": "Does this hold up in Singapore conditions? I'm someone new to retinol and nervous about it, read conflicting advice online, worried about peeling, and I need it clear instructions.",
+  "vertical": "skincare",
+  "persona": "actives_curious",
+  "intent": "condition_specific",
+  "probes": [
+   "active_ingredients",
+   "anticipated_qa",
+   "climate_suitability",
+   "environment_conditions",
+   "experience_level",
+   "learning_curve",
+   "season"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0109",
+  "text": "I'm completely new to this. I'm someone new to retinol and nervous about it. Is this a reasonable place to start given read conflicting advice online, worried about peeling?",
+  "vertical": "skincare",
+  "persona": "actives_curious",
+  "intent": "beginner_safe",
+  "probes": [
+   "active_ingredients",
+   "anticipated_qa",
+   "experience_level",
+   "learning_curve",
+   "prerequisites"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0110",
+  "text": "How long will this last and is it worth the money? Context: someone new to retinol and nervous about it, read conflicting advice online, worried about peeling.",
+  "vertical": "skincare",
+  "persona": "actives_curious",
+  "intent": "longevity",
+  "probes": [
+   "active_ingredients",
+   "anticipated_qa",
+   "care_instructions",
+   "durability_expectation",
+   "experience_level",
+   "learning_curve",
+   "price_justification"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0111",
+  "text": "I'm a frequent business traveller, cabin bag only, hates carrying bottles. What should I get? I need something multi-purpose.",
+  "vertical": "skincare",
+  "persona": "travel_minimalist",
+  "intent": "need_fit",
+  "probes": [
+   "capacity",
+   "compatible_with",
+   "occasion",
+   "personas",
+   "secondary_functions",
+   "use_cases"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0112",
+  "text": "Looking for something multi-purpose for frequent business traveller. cabin bag only, hates carrying bottles. Any recommendations?",
+  "vertical": "skincare",
+  "persona": "travel_minimalist",
+  "intent": "constraint_first",
+  "probes": [
+   "capacity",
+   "compatible_with",
+   "occasion",
+   "price_tier",
+   "secondary_functions",
+   "value_argument"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0113",
+  "text": "I'm choosing between a few options as frequent business traveller. What actually makes one better than another when cabin bag only, hates carrying bottles?",
+  "vertical": "skincare",
+  "persona": "travel_minimalist",
+  "intent": "comparison",
+  "probes": [
+   "capacity",
+   "compatible_with",
+   "competes_with",
+   "differentiators",
+   "occasion",
+   "secondary_functions",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0114",
+  "text": "I'm a frequent business traveller. cabin bag only, hates carrying bottles. What should I avoid, and why?",
+  "vertical": "skincare",
+  "persona": "travel_minimalist",
+  "intent": "disqualify",
+  "probes": [
+   "capacity",
+   "compatible_with",
+   "known_limitations",
+   "not_suitable_for",
+   "occasion",
+   "secondary_functions",
+   "tradeoffs"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0115",
+  "text": "As frequent business traveller, I don't trust marketing copy. Is there any actual evidence this works when cabin bag only, hates carrying bottles?",
+  "vertical": "skincare",
+  "persona": "travel_minimalist",
+  "intent": "evidence",
+  "probes": [
+   "capacity",
+   "compatible_with",
+   "lab_test_refs",
+   "occasion",
+   "performance_claims",
+   "secondary_functions",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0116",
+  "text": "How much time and effort does this actually take? I'm a frequent business traveller, cabin bag only, hates carrying bottles.",
+  "vertical": "skincare",
+  "persona": "travel_minimalist",
+  "intent": "how_long",
+  "probes": [
+   "capacity",
+   "compatible_with",
+   "learning_curve",
+   "occasion",
+   "secondary_functions",
+   "time_commitment",
+   "typical_session_duration"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0117",
+  "text": "What else do I need to make this work? I'm a frequent business traveller and cabin bag only, hates carrying bottles.",
+  "vertical": "skincare",
+  "persona": "travel_minimalist",
+  "intent": "compatibility",
+  "probes": [
+   "capacity",
+   "compatible_with",
+   "occasion",
+   "pairs_well_with",
+   "requires",
+   "secondary_functions"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0118",
+  "text": "Does this hold up in Singapore conditions? I'm a frequent business traveller, cabin bag only, hates carrying bottles, and I need it multi-purpose.",
+  "vertical": "skincare",
+  "persona": "travel_minimalist",
+  "intent": "condition_specific",
+  "probes": [
+   "capacity",
+   "climate_suitability",
+   "compatible_with",
+   "environment_conditions",
+   "occasion",
+   "season",
+   "secondary_functions"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0119",
+  "text": "I'm completely new to this. I'm a frequent business traveller. Is this a reasonable place to start given cabin bag only, hates carrying bottles?",
+  "vertical": "skincare",
+  "persona": "travel_minimalist",
+  "intent": "beginner_safe",
+  "probes": [
+   "capacity",
+   "compatible_with",
+   "experience_level",
+   "learning_curve",
+   "occasion",
+   "prerequisites",
+   "secondary_functions"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0120",
+  "text": "How long will this last and is it worth the money? Context: a frequent business traveller, cabin bag only, hates carrying bottles.",
+  "vertical": "skincare",
+  "persona": "travel_minimalist",
+  "intent": "longevity",
+  "probes": [
+   "capacity",
+   "care_instructions",
+   "compatible_with",
+   "durability_expectation",
+   "occasion",
+   "price_justification",
+   "secondary_functions"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0121",
+  "text": "I'm someone buying a gift and unsure of the recipient's preferences, wants something safe that will not be returned. What should I get? I need something easy returns.",
+  "vertical": "any",
+  "persona": "gift_buyer",
+  "intent": "need_fit",
+  "probes": [
+   "not_suitable_for",
+   "personas",
+   "return_policy",
+   "social_proof_summary",
+   "use_cases"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0122",
+  "text": "Looking for something easy returns for someone buying gift and unsure of the recipient's preferences. wants something safe that will not be returned. Any recommendations?",
+  "vertical": "any",
+  "persona": "gift_buyer",
+  "intent": "constraint_first",
+  "probes": [
+   "not_suitable_for",
+   "personas",
+   "price_tier",
+   "return_policy",
+   "social_proof_summary",
+   "value_argument"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0123",
+  "text": "I'm choosing between a few options as someone buying gift and unsure of the recipient's preferences. What actually makes one better than another when wants something safe that will not be returned?",
+  "vertical": "any",
+  "persona": "gift_buyer",
+  "intent": "comparison",
+  "probes": [
+   "competes_with",
+   "differentiators",
+   "not_suitable_for",
+   "personas",
+   "return_policy",
+   "social_proof_summary",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0124",
+  "text": "I'm someone buying a gift and unsure of the recipient's preferences. wants something safe that will not be returned. What should I avoid, and why?",
+  "vertical": "any",
+  "persona": "gift_buyer",
+  "intent": "disqualify",
+  "probes": [
+   "known_limitations",
+   "not_suitable_for",
+   "personas",
+   "return_policy",
+   "social_proof_summary",
+   "tradeoffs"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0125",
+  "text": "As someone buying gift and unsure of the recipient's preferences, I don't trust marketing copy. Is there any actual evidence this works when wants something safe that will not be returned?",
+  "vertical": "any",
+  "persona": "gift_buyer",
+  "intent": "evidence",
+  "probes": [
+   "lab_test_refs",
+   "not_suitable_for",
+   "performance_claims",
+   "personas",
+   "return_policy",
+   "social_proof_summary",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0126",
+  "text": "How much time and effort does this actually take? I'm someone buying a gift and unsure of the recipient's preferences, wants something safe that will not be returned.",
+  "vertical": "any",
+  "persona": "gift_buyer",
+  "intent": "how_long",
+  "probes": [
+   "learning_curve",
+   "not_suitable_for",
+   "personas",
+   "return_policy",
+   "social_proof_summary",
+   "time_commitment",
+   "typical_session_duration"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0127",
+  "text": "What else do I need to make this work? I'm someone buying a gift and unsure of the recipient's preferences and wants something safe that will not be returned.",
+  "vertical": "any",
+  "persona": "gift_buyer",
+  "intent": "compatibility",
+  "probes": [
+   "compatible_with",
+   "not_suitable_for",
+   "pairs_well_with",
+   "personas",
+   "requires",
+   "return_policy",
+   "social_proof_summary"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0128",
+  "text": "Does this hold up in Singapore conditions? I'm someone buying a gift and unsure of the recipient's preferences, wants something safe that will not be returned, and I need it broadly appealing.",
+  "vertical": "any",
+  "persona": "gift_buyer",
+  "intent": "condition_specific",
+  "probes": [
+   "climate_suitability",
+   "environment_conditions",
+   "not_suitable_for",
+   "personas",
+   "return_policy",
+   "season",
+   "social_proof_summary"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0129",
+  "text": "I'm completely new to this. I'm someone buying a gift and unsure of the recipient's preferences. Is this a reasonable place to start given wants something safe that will not be returned?",
+  "vertical": "any",
+  "persona": "gift_buyer",
+  "intent": "beginner_safe",
+  "probes": [
+   "experience_level",
+   "learning_curve",
+   "not_suitable_for",
+   "personas",
+   "prerequisites",
+   "return_policy",
+   "social_proof_summary"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0130",
+  "text": "How long will this last and is it worth the money? Context: someone buying a gift and unsure of the recipient's preferences, wants something safe that will not be returned.",
+  "vertical": "any",
+  "persona": "gift_buyer",
+  "intent": "longevity",
+  "probes": [
+   "care_instructions",
+   "durability_expectation",
+   "not_suitable_for",
+   "personas",
+   "price_justification",
+   "return_policy",
+   "social_proof_summary"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0131",
+  "text": "I'm a careful shopper comparing three shortlisted options, wants to know exactly what the extra money buys. What should I get? I need something justify the price.",
+  "vertical": "any",
+  "persona": "value_maximiser",
+  "intent": "need_fit",
+  "probes": [
+   "differentiators",
+   "personas",
+   "price_justification",
+   "tradeoffs",
+   "use_cases",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0132",
+  "text": "Looking for something justify the price for careful shopper comparing three shortlisted options. wants to know exactly what the extra money buys. Any recommendations?",
+  "vertical": "any",
+  "persona": "value_maximiser",
+  "intent": "constraint_first",
+  "probes": [
+   "differentiators",
+   "price_justification",
+   "price_tier",
+   "tradeoffs",
+   "value_argument",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0133",
+  "text": "I'm choosing between a few options as careful shopper comparing three shortlisted options. What actually makes one better than another when wants to know exactly what the extra money buys?",
+  "vertical": "any",
+  "persona": "value_maximiser",
+  "intent": "comparison",
+  "probes": [
+   "competes_with",
+   "differentiators",
+   "price_justification",
+   "tradeoffs",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0134",
+  "text": "I'm a careful shopper comparing three shortlisted options. wants to know exactly what the extra money buys. What should I avoid, and why?",
+  "vertical": "any",
+  "persona": "value_maximiser",
+  "intent": "disqualify",
+  "probes": [
+   "differentiators",
+   "known_limitations",
+   "not_suitable_for",
+   "price_justification",
+   "tradeoffs",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0135",
+  "text": "As careful shopper comparing three shortlisted options, I don't trust marketing copy. Is there any actual evidence this works when wants to know exactly what the extra money buys?",
+  "vertical": "any",
+  "persona": "value_maximiser",
+  "intent": "evidence",
+  "probes": [
+   "differentiators",
+   "lab_test_refs",
+   "performance_claims",
+   "price_justification",
+   "tradeoffs",
+   "verified_claims",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0136",
+  "text": "How much time and effort does this actually take? I'm a careful shopper comparing three shortlisted options, wants to know exactly what the extra money buys.",
+  "vertical": "any",
+  "persona": "value_maximiser",
+  "intent": "how_long",
+  "probes": [
+   "differentiators",
+   "learning_curve",
+   "price_justification",
+   "time_commitment",
+   "tradeoffs",
+   "typical_session_duration",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0137",
+  "text": "What else do I need to make this work? I'm a careful shopper comparing three shortlisted options and wants to know exactly what the extra money buys.",
+  "vertical": "any",
+  "persona": "value_maximiser",
+  "intent": "compatibility",
+  "probes": [
+   "compatible_with",
+   "differentiators",
+   "pairs_well_with",
+   "price_justification",
+   "requires",
+   "tradeoffs",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0138",
+  "text": "Does this hold up in Singapore conditions? I'm a careful shopper comparing three shortlisted options, wants to know exactly what the extra money buys, and I need it justify the price.",
+  "vertical": "any",
+  "persona": "value_maximiser",
+  "intent": "condition_specific",
+  "probes": [
+   "climate_suitability",
+   "differentiators",
+   "environment_conditions",
+   "price_justification",
+   "season",
+   "tradeoffs",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0139",
+  "text": "I'm completely new to this. I'm a careful shopper comparing three shortlisted options. Is this a reasonable place to start given wants to know exactly what the extra money buys?",
+  "vertical": "any",
+  "persona": "value_maximiser",
+  "intent": "beginner_safe",
+  "probes": [
+   "differentiators",
+   "experience_level",
+   "learning_curve",
+   "prerequisites",
+   "price_justification",
+   "tradeoffs",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0140",
+  "text": "How long will this last and is it worth the money? Context: a careful shopper comparing three shortlisted options, wants to know exactly what the extra money buys.",
+  "vertical": "any",
+  "persona": "value_maximiser",
+  "intent": "longevity",
+  "probes": [
+   "care_instructions",
+   "differentiators",
+   "durability_expectation",
+   "price_justification",
+   "tradeoffs",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0141",
+  "text": "I'm a shopper who distrusts marketing claims, wants evidence, not adjectives. What should I get? I need something proof for every claim.",
+  "vertical": "any",
+  "persona": "sceptic",
+  "intent": "need_fit",
+  "probes": [
+   "common_complaints",
+   "lab_test_refs",
+   "performance_claims",
+   "personas",
+   "use_cases",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0142",
+  "text": "Looking for something proof for every claim for shopper who distrusts marketing claims. wants evidence, not adjectives. Any recommendations?",
+  "vertical": "any",
+  "persona": "sceptic",
+  "intent": "constraint_first",
+  "probes": [
+   "common_complaints",
+   "lab_test_refs",
+   "performance_claims",
+   "price_tier",
+   "value_argument",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0143",
+  "text": "I'm choosing between a few options as shopper who distrusts marketing claims. What actually makes one better than another when wants evidence, not adjectives?",
+  "vertical": "any",
+  "persona": "sceptic",
+  "intent": "comparison",
+  "probes": [
+   "common_complaints",
+   "competes_with",
+   "differentiators",
+   "lab_test_refs",
+   "performance_claims",
+   "verified_claims",
+   "why_choose_over"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0144",
+  "text": "I'm a shopper who distrusts marketing claims. wants evidence, not adjectives. What should I avoid, and why?",
+  "vertical": "any",
+  "persona": "sceptic",
+  "intent": "disqualify",
+  "probes": [
+   "common_complaints",
+   "known_limitations",
+   "lab_test_refs",
+   "not_suitable_for",
+   "performance_claims",
+   "tradeoffs",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0145",
+  "text": "As shopper who distrusts marketing claims, I don't trust marketing copy. Is there any actual evidence this works when wants evidence, not adjectives?",
+  "vertical": "any",
+  "persona": "sceptic",
+  "intent": "evidence",
+  "probes": [
+   "common_complaints",
+   "lab_test_refs",
+   "performance_claims",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0146",
+  "text": "How much time and effort does this actually take? I'm a shopper who distrusts marketing claims, wants evidence, not adjectives.",
+  "vertical": "any",
+  "persona": "sceptic",
+  "intent": "how_long",
+  "probes": [
+   "common_complaints",
+   "lab_test_refs",
+   "learning_curve",
+   "performance_claims",
+   "time_commitment",
+   "typical_session_duration",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0147",
+  "text": "What else do I need to make this work? I'm a shopper who distrusts marketing claims and wants evidence, not adjectives.",
+  "vertical": "any",
+  "persona": "sceptic",
+  "intent": "compatibility",
+  "probes": [
+   "common_complaints",
+   "compatible_with",
+   "lab_test_refs",
+   "pairs_well_with",
+   "performance_claims",
+   "requires",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0148",
+  "text": "Does this hold up in Singapore conditions? I'm a shopper who distrusts marketing claims, wants evidence, not adjectives, and I need it proof for every claim.",
+  "vertical": "any",
+  "persona": "sceptic",
+  "intent": "condition_specific",
+  "probes": [
+   "climate_suitability",
+   "common_complaints",
+   "environment_conditions",
+   "lab_test_refs",
+   "performance_claims",
+   "season",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0149",
+  "text": "I'm completely new to this. I'm a shopper who distrusts marketing claims. Is this a reasonable place to start given wants evidence, not adjectives?",
+  "vertical": "any",
+  "persona": "sceptic",
+  "intent": "beginner_safe",
+  "probes": [
+   "common_complaints",
+   "experience_level",
+   "lab_test_refs",
+   "learning_curve",
+   "performance_claims",
+   "prerequisites",
+   "verified_claims"
+  ],
+  "max_price": null
+ },
+ {
+  "qid": "q0150",
+  "text": "How long will this last and is it worth the money? Context: a shopper who distrusts marketing claims, wants evidence, not adjectives.",
+  "vertical": "any",
+  "persona": "sceptic",
+  "intent": "longevity",
+  "probes": [
+   "care_instructions",
+   "common_complaints",
+   "durability_expectation",
+   "lab_test_refs",
+   "performance_claims",
+   "price_justification",
+   "verified_claims"
+  ],
+  "max_price": null
+ }
+]

@@ -1,0 +1,53 @@
+# Controlled vocabularies. Pass C maps free-text LLM output onto these so that
+# 40 products speak one language and cross-product comparison actually works.
+# Each canonical term lists its synonyms. Matching is lowercase substring.
+
+environment:
+  humid: [humid, humidity, tropical, muggy, sticky, high humidity, damp air]
+  hot: [hot, heat, warm weather, high temperature, summer heat]
+  cold: [cold, cool, winter, freezing, chilly, sub-zero]
+  wet: [wet, rain, rainy, damp, monsoon, puddles, wet roads]
+  dry: [dry, arid, low humidity]
+  indoor: [indoor, indoors, gym, treadmill, home, studio]
+  outdoor: [outdoor, outdoors, open air, trail, street, road]
+  urban: [urban, city, pavement, sidewalk, town]
+  travel: [travel, travelling, flights, on the go, commute, portable]
+  altitude: [altitude, elevation, mountain]
+
+price_tier:
+  budget: [budget, entry, entry-level, cheap, affordable, value]
+  mid: [mid, mid-range, midrange, moderate, mainstream]
+  premium: [premium, high-end, flagship, luxury, top-tier, pro]
+
+availability:
+  in_stock: [in stock, available, in_stock, ready to ship]
+  low_stock: [low stock, limited, few left, running low]
+  preorder: [preorder, pre-order, backorder]
+  out_of_stock: [out of stock, sold out, unavailable]
+
+experience_level:
+  beginner: [beginner, new, novice, first-time, starter, entry]
+  intermediate: [intermediate, regular, experienced, recreational, enthusiast]
+  advanced: [advanced, expert, elite, competitive, serious, pro, professional]
+  any: [any, all levels, everyone, all abilities]
+
+learning_curve:
+  none: [none, instant, no learning curve, straightforward, plug and play]
+  low: [low, easy, gentle, simple, quick to learn]
+  moderate: [moderate, medium, some practice, takes getting used to]
+  steep: [steep, high, difficult, hard, technical]
+
+occasion:
+  daily: [daily, everyday, every day, routine, day to day]
+  training: [training, practice, workout, session, gym]
+  race: [race, racing, competition, event, marathon day]
+  travel: [travel, holiday, trip, vacation, flying]
+  work: [work, office, professional, commute]
+  evening: [evening, night, nighttime, pm, bedtime]
+  morning: [morning, am, sunrise, first thing]
+
+season:
+  year_round: [year round, year-round, all season, all year, any season]
+  summer: [summer, hot season, dry season]
+  winter: [winter, cold season]
+  monsoon: [monsoon, rainy season, wet season]

@@ -1,0 +1,12 @@
+# --- required ---
+pyyaml>=6.0
+streamlit>=1.30
+scikit-learn>=1.3        # TF-IDF retrieval fallback
+
+# --- optional, all degrade gracefully if missing ---
+openai>=1.40             # omit and the pipeline runs in deterministic mock mode
+sentence-transformers    # omit and retrieval falls back to TF-IDF, then token overlap
+
+# Deliberately NOT here: pydantic, a vector DB, a web framework, a database.
+# 12-40 products does not need any of them, and every extra dependency is one
+# more thing that can break at 4am.
