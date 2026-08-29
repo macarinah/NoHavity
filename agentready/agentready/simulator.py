@@ -331,7 +331,15 @@ class Simulator:
         scored.sort(key=lambda x: -x[0])
 
         best_score, best, answered, _ = scored[0]
-        winner = best.product_id if best_score >= 0.40 else None
+
+        # An assistant must answer at least ONE of the shopper's implicit
+        # questions before it recommends anything. Without this floor, keyword
+        # similarity alone can carry a product over the threshold and it "wins"
+        # having answered nothing - which is exactly the behaviour this project
+        # exists to criticise.
+        winner = (best.product_id
+                  if best_score >= 0.40 and len(answered) >= 1
+                  else None)
         if winner:
             reason = (f"Answers {len(answered)} of {len(q.probes)} things this shopper "
                       f"needs to know ({', '.join(answered[:3])}).")
@@ -339,6 +347,9 @@ class Simulator:
             reason = ("Nothing in this catalog is the product type the shopper asked for. "
                       "Recommending the closest available item would be worse than "
                       "recommending nothing.")
+        elif not any(a for _s, _c, a, _u in scored):
+            reason = ("No listing answers a single one of this shopper's questions, so "
+                      "there is nothing to base a recommendation on.")
         else:
             reason = "No candidate supplied enough information to recommend responsibly."
 

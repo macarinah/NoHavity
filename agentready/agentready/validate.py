@@ -184,6 +184,9 @@ def run(hero: str = "p001", products_path: str = None, optimised: bool = True) -
     from .pipeline import load_products
 
     llm = LLM()
+    if llm.live:
+        llm.preflight()
+    print(f"[validate] llm mode: {llm.mode}")
     sim = Simulator(llm)
     queries = gen_queries()
     ex = Extractor(llm)

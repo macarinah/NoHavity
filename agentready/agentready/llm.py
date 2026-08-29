@@ -23,6 +23,7 @@ import copy
 import json
 import os
 import re
+import time
 from typing import Any, Dict, List, Optional
 
 MODEL = os.environ.get("AGENTREADY_MODEL", "gpt-4o-mini")
@@ -99,6 +100,26 @@ def openaify(schema: Dict[str, Any]) -> Dict[str, Any]:
     return walk(node)
 
 
+# Failures split into two kinds, and conflating them is what produced a wall of
+# identical 429s: a rate limit is transient and worth retrying, an exhausted
+# quota or a bad key is permanent and retrying it just burns time and prints
+# noise. `_classify` decides which, and permanent failures kill live mode
+# immediately so the run finishes in mock rather than producing empty records.
+
+def _classify(msg: str) -> str:
+    m = msg.lower()
+    if any(k in m for k in ("insufficient_quota", "no credits", "exceeded your current quota",
+                            "billing", "payment required", "402")):
+        return "quota"
+    if any(k in m for k in ("invalid_api_key", "incorrect api key", "unauthorized", "401")):
+        return "auth"
+    if "429" in m or "rate limit" in m or "rate_limit" in m:
+        return "rate_limit"
+    if "model" in m and ("not found" in m or "does not exist" in m or "404" in m):
+        return "model"
+    return "other"
+
+
 class LLM:
     """Thin wrapper. `.json()` is the only method the pipeline should call."""
 
@@ -109,7 +130,9 @@ class LLM:
         self.base_url = base_url or BASE_URL
         self.client = None
         self.live = False
-        self.supports_strict = True  # flipped off automatically on first rejection
+        self.supports_strict = True   # flipped off automatically on first rejection
+        self.disabled_reason = ""     # set when live mode is killed mid-run
+        self._consecutive_failures = 0
 
         if self.api_key:
             try:
@@ -124,7 +147,59 @@ class LLM:
 
     @property
     def mode(self) -> str:
-        return f"openai:{self.model}" if self.live else "mock"
+        if self.live:
+            return f"openai:{self.model}"
+        return f"mock ({self.disabled_reason})" if self.disabled_reason else "mock"
+
+    # -- failure handling --------------------------------------------------
+
+    def _go_mock(self, kind: str, msg: str) -> None:
+        """
+        Kill live mode for the rest of the process and say so ONCE, loudly.
+
+        Without this, a dead key produces one error line per API call - hundreds
+        of identical 429s - and, far worse, every extraction silently returns
+        None. The pipeline then scores empty records and reports numbers that
+        look plausible and mean nothing. Falling back to mock is not just
+        tidier, it is the difference between degraded output and wrong output.
+        """
+        if not self.live:
+            return
+        self.live = False
+        self.disabled_reason = kind
+        explain = {
+            "quota": ("Your OpenAI account has no credits left. This is a billing "
+                      "state, not a rate limit - waiting will not help. Add credits "
+                      "at platform.openai.com/settings/organization/billing"),
+            "auth": "Your OPENAI_API_KEY was rejected. Check it is set and current.",
+            "model": (f"The model '{self.model}' is not available on this account or "
+                      f"endpoint. Set AGENTREADY_MODEL to one that is."),
+            "rate_limit": "Rate limited repeatedly. Lower `workers`, or wait and retry.",
+        }.get(kind, "Repeated API failures.")
+        print("\n" + "=" * 68)
+        print(f"  LIVE MODE DISABLED: {kind}")
+        print(f"  {explain}")
+        print(f"  Continuing in deterministic mock mode. Results are still valid -")
+        print(f"  they are just the offline heuristics, not the model.")
+        print("=" * 68 + "\n", flush=True)
+
+    def preflight(self, verbose: bool = True) -> bool:
+        """
+        One cheap call before doing any real work.
+
+        Run this first and a dead key costs you one request and a clear message.
+        Skip it and you find out 40 calls in, with half your catalog extracted
+        live and half in mock - a mixed run whose numbers mean nothing.
+        """
+        if not self.live:
+            return False
+        out = self._call("Reply with JSON only.", 'Return {"ok":true}',
+                         max_tokens=16, response_format=None)
+        if out is None and not self.live:
+            return False
+        if verbose:
+            print(f"[llm] preflight ok: {self.model}")
+        return True
 
     # -- raw text ----------------------------------------------------------
 
@@ -201,7 +276,10 @@ class LLM:
         return None
 
     def _call(self, system: str, prompt: str, max_tokens: int,
-              response_format: Optional[Dict[str, Any]]) -> Optional[Any]:
+              response_format: Optional[Dict[str, Any]],
+              _attempt: int = 0) -> Optional[Any]:
+        if not self.live:
+            return None
         kwargs: Dict[str, Any] = dict(
             model=self.model,
             max_tokens=max_tokens,
@@ -224,16 +302,41 @@ class LLM:
                 try:
                     resp = self.client.chat.completions.create(**kwargs)
                 except Exception as exc2:
-                    print(f"[llm] call failed: {str(exc2)[:200]}")
-                    return None
+                    return self._handle_failure(str(exc2), system, prompt,
+                                                max_tokens, response_format, _attempt)
             else:
-                print(f"[llm] call failed: {msg[:200]}")
-                return None
+                return self._handle_failure(msg, system, prompt, max_tokens,
+                                            response_format, _attempt)
 
+        self._consecutive_failures = 0
         content = resp.choices[0].message.content
         if getattr(resp.choices[0], "finish_reason", "") == "length":
             print("[llm] warning: response hit the token cap and may be truncated")
         return safe_json(content)
+
+    def _handle_failure(self, msg: str, system: str, prompt: str, max_tokens: int,
+                        response_format, attempt: int) -> Optional[Any]:
+        kind = _classify(msg)
+
+        # Permanent: no amount of retrying fixes a $0 balance or a bad key.
+        if kind in ("quota", "auth", "model"):
+            self._go_mock(kind, msg)
+            return None
+
+        # Transient: back off and retry, but give up rather than loop forever.
+        if kind == "rate_limit" and attempt < 3:
+            wait = 2 ** attempt
+            print(f"[llm] rate limited, retrying in {wait}s "
+                  f"(attempt {attempt + 1}/3)")
+            time.sleep(wait)
+            return self._call(system, prompt, max_tokens, response_format,
+                              _attempt=attempt + 1)
+
+        self._consecutive_failures += 1
+        print(f"[llm] call failed ({kind}): {msg[:160]}")
+        if self._consecutive_failures >= 5:
+            self._go_mock(kind, msg)
+        return None
 
 
 # ---------------------------------------------------------------------------

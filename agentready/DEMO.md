@@ -231,3 +231,4 @@ Slide 5 is what they remember. Everything else sets it up.
 | 5 · Brand adoptability | 3:10 approval queue, 6:30 deliverables |
 
 Full evidence with reproduction commands: **RUBRIC.md**.
+Plain-English explanation of the whole system: **HOW-IT-WORKS.md**.

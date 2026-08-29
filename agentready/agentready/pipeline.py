@@ -51,6 +51,8 @@ def run(hero: str = "p001", per_pair: int = 1, top_k: int = 5,
         products_path: str = None, quiet: bool = False) -> Dict[str, Any]:
     os.makedirs(OUT, exist_ok=True)
     llm = LLM()
+    if llm.live:
+        llm.preflight()          # one call, so a dead key fails now and not 40 calls in
     _p(f"LLM mode: {llm.mode}")
 
     products = load_products(products_path)

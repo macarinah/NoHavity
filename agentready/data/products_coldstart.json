@@ -1,0 +1,135 @@
+[
+ {
+  "sku": "BRW-001",
+  "product_name": "Kanso Pour-Over Kettle 900ml",
+  "brand": "Kanso",
+  "category": "Home > Coffee Equipment > Kettles",
+  "price": 148.0,
+  "url": "https://example.com/kanso-kettle",
+  "availability": "in stock",
+  "rating": 4.5,
+  "review_count": 312.0,
+  "pdp_text": "A gooseneck kettle with variable temperature control from 60 to 100 degrees. Stainless steel body with a walnut handle. Precision engineered for the perfect pour.\nWarranty: 2 years",
+  "bullet_specs": [
+   "900ml capacity",
+   "Variable temp 60-100C",
+   "Gooseneck spout",
+   "Walnut handle",
+   "1200W"
+  ],
+  "product_id": "csv001",
+  "currency": "SGD",
+  "vertical": "home"
+ },
+ {
+  "sku": "BRW-002",
+  "product_name": "Kanso Burr Grinder Mini",
+  "brand": "Kanso",
+  "category": "Home > Coffee Equipment > Grinders",
+  "price": 215.0,
+  "url": "https://example.com/kanso-grinder",
+  "availability": "in stock",
+  "rating": 4.2,
+  "review_count": 187.0,
+  "pdp_text": "A compact conical burr grinder with 38 grind settings from espresso to French press. Stepped adjustment ring with a removable catch cup.\nWarranty: 1 year",
+  "bullet_specs": [
+   "38 grind settings",
+   "40mm conical steel burrs",
+   "Stepped adjustment",
+   "Removable catch cup",
+   "Hand crank"
+  ],
+  "product_id": "csv002",
+  "currency": "SGD",
+  "vertical": "home"
+ },
+ {
+  "sku": "BRW-003",
+  "product_name": "Verda Reusable Filter Set",
+  "brand": "Verda",
+  "category": "Home > Coffee Equipment > Accessories",
+  "price": 34.0,
+  "url": "https://example.com/verda-filters",
+  "availability": "in stock",
+  "rating": 3.9,
+  "review_count": 96.0,
+  "pdp_text": "A set of three reusable stainless steel filters that fit most standard drippers. Eliminates the need for paper filters entirely. COSMOS certified packaging.\nWarranty: 1 year",
+  "bullet_specs": [
+   "Set of 3",
+   "Stainless steel mesh",
+   "Fits V60 and Kalita",
+   "Plastic-free packaging",
+   "Dishwasher safe"
+  ],
+  "product_id": "csv003",
+  "currency": "SGD",
+  "vertical": "home"
+ },
+ {
+  "sku": "BRW-004",
+  "product_name": "Meridian Espresso Machine Duo",
+  "brand": "Meridian",
+  "category": "Home > Coffee Equipment > Espresso Machines",
+  "price": 689.0,
+  "url": "https://example.com/meridian-duo",
+  "availability": "low stock",
+  "rating": 4.6,
+  "review_count": 241.0,
+  "pdp_text": "A dual-boiler espresso machine with a 15 bar pump and PID temperature control. Includes a steam wand for milk texturing. Premium build quality for the serious home barista.\nWarranty: 3 years",
+  "bullet_specs": [
+   "Dual boiler",
+   "15 bar pump",
+   "PID control",
+   "Steam wand",
+   "58mm portafilter",
+   "2.5L tank"
+  ],
+  "product_id": "csv004",
+  "currency": "SGD",
+  "vertical": "home"
+ },
+ {
+  "sku": "BRW-005",
+  "product_name": "Kanso Travel Press 350ml",
+  "brand": "Kanso",
+  "category": "Home > Coffee Equipment > Brewers",
+  "price": 62.0,
+  "url": "https://example.com/kanso-travel",
+  "availability": "in stock",
+  "rating": 4.3,
+  "review_count": 528.0,
+  "pdp_text": "A double-walled insulated travel press that brews and holds coffee in the same vessel. Leak-proof lid. Fits most car cup holders.\nWarranty: 1 year",
+  "bullet_specs": [
+   "350ml",
+   "Double-walled steel",
+   "Leak-proof lid",
+   "Brew and go",
+   "BPA free"
+  ],
+  "product_id": "csv005",
+  "currency": "SGD",
+  "vertical": "home"
+ },
+ {
+  "sku": "BRW-006",
+  "product_name": "Terrafirma Camp Brewer",
+  "brand": "Terrafirma",
+  "category": "Home > Coffee Equipment > Brewers",
+  "price": 45.0,
+  "url": "https://example.com/terrafirma-camp",
+  "availability": "in stock",
+  "rating": 4.1,
+  "review_count": 143.0,
+  "pdp_text": "A rugged collapsible silicone dripper built for the outdoors. Packs flat and weighs 78g. Reinforced base for stability on uneven ground.\nWarranty: 1 year",
+  "bullet_specs": [
+   "78g",
+   "Collapsible silicone",
+   "Packs flat",
+   "Reinforced base",
+   "Fits standard filters"
+  ],
+  "product_id": "csv006",
+  "currency": "SGD",
+  "vertical": "home"
+ }
+]

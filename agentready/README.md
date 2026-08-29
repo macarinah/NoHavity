@@ -37,6 +37,12 @@ Extraction and gap detection are the same pass, not two systems.
 
 ---
 
+## New here?
+
+Read **[HOW-IT-WORKS.md](HOW-IT-WORKS.md)** first. It explains the problem, the
+architecture, what each file does, and how the dashboard works, in plain English
+with no prior knowledge of the code. This README is the technical setup guide.
+
 ## Rubric evidence
 
 Every architectural claim here is measured, not asserted. See **[RUBRIC.md](RUBRIC.md)**
@@ -71,6 +77,7 @@ The app has seven tabs, all driven by the single product selector in the sidebar
 Other entry points:
 
 ```bash
+python -m agentready.llm                                       # check your key works
 python -m agentready.validate                                  # architecture evidence
 python -m agentready.pipeline coldstart data/sample_unseen_category.csv   # unseen category
 python -m agentready.ingest data/sample_unseen_category.csv    # CSV auto-mapping
@@ -345,6 +352,8 @@ under an hour, which is the point of putting the boundary there.
 
 | Symptom | Fix |
 |---|---|
+| `429 ... insufficient_quota` / `no credits remaining` | Your OpenAI account balance is zero. This is billing, not rate limiting — waiting does nothing. Add credits, or just run without a key: mock mode is fully functional |
+| `429 ... rate limit reached` | Different problem, same code. Transient. The client backs off and retries 3×; if it persists, lower `workers` in `extract_many()` and `Simulator.run()` |
 | `mode: mock` when you set a key | The env var isn't in the shell running Python. `echo $OPENAI_API_KEY`. In Streamlit, export it *before* launching |
 | `strict schema rejected` in the log | Harmless. Your endpoint doesn't do structured outputs; it fell back to `json_object`. Extraction quality drops slightly |
 | `call failed: 401` | Bad key, or you need `OPENAI_BASE_URL` because it's a proxy key |
