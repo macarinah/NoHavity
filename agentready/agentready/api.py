@@ -62,7 +62,7 @@ def health():
 # ---------------------------------------------------------------------------
 
 @app.post("/v1/score")
-def score_product(product: Dict[str, Any] = Body(..., example={
+def score_product(product: Dict[str, Any] = Body(..., examples=[{
     "product_id": "sku-123",
     "product_name": "Example Road Shoe",
     "brand": "ExampleCo",
@@ -71,7 +71,7 @@ def score_product(product: Dict[str, Any] = Body(..., example={
     "currency": "SGD",
     "pdp_text": "A lightweight road shoe with an engineered mesh upper...",
     "bullet_specs": ["Weight: 212g", "Drop: 8mm"],
-})):
+}])):
     """Coverage score + ranked content gaps. No side effects."""
     product.setdefault("product_id", "tmp")
     rec = _extractor.extract(product)
@@ -114,10 +114,10 @@ def optimise_product(
 
 
 @app.post("/v1/approve/{product_id}")
-def approve(product_id: str, decisions: List[Dict[str, Any]] = Body(..., example=[
+def approve(product_id: str, decisions: List[Dict[str, Any]] = Body(..., examples=[[
     {"field": "environment_conditions", "state": "approved"},
     {"field": "not_suitable_for", "state": "edited", "value": "Not for trail use"},
-])):
+]])):
     """Record human decisions. Nothing reaches the published record without this."""
     entry = _cache.get(product_id)
     if not entry:
@@ -175,10 +175,10 @@ def checklist(product_id: str):
 # ---------------------------------------------------------------------------
 
 @app.post("/v1/ask")
-def ask(payload: Dict[str, Any] = Body(..., example={
+def ask(payload: Dict[str, Any] = Body(..., examples=[{
     "query": "I'm training for a half marathon in humid weather, under S$200",
     "products": [],
-})):
+}])):
     """
     Answer a natural-language shopper query against a supplied catalog.
     This is the endpoint that shows a brand what an assistant sees.
@@ -208,7 +208,7 @@ def simulate(payload: Dict[str, Any] = Body(...)):
 
 
 @app.post("/v1/ingest/csv")
-def ingest_csv(payload: Dict[str, str] = Body(..., example={"csv": "Item Name,Price\n..."})):
+def ingest_csv(payload: Dict[str, str] = Body(..., examples=[{"csv": "Item Name,Price\n..."}])):
     """
     Upload a raw catalog CSV. Columns are auto-mapped; unmapped ones are kept.
     Proves a brand does not have to reformat anything to try this.

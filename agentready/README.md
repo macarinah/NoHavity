@@ -57,9 +57,25 @@ python -m agentready.validate    # coverage predicts win rate: Spearman +0.687
 ## Quickstart
 
 ```bash
+python -m venv .venv
+source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
-python -m agentready.pipeline run --hero p001     # ~1s in mock mode
+
+python -m agentready.pipeline run --hero p001     # ~2s in offline mode
 streamlit run app.py
+```
+
+**If `pip install` fails**, you are probably on a system Python that refuses to
+be written to. Either use the venv above, or add `--break-system-packages`.
+
+**Optional extras** live in `requirements-optional.txt` and are deliberately
+separate. pip installs a requirements file all-or-nothing, so one heavy package
+that fails to build silently prevents every other package in the file from
+installing. `sentence-transformers` pulls in PyTorch (~2 GB) and was doing
+exactly that. You do not need it; the demo runs on TF-IDF.
+
+```bash
+pip install -r requirements-optional.txt   # REST API + upgraded retriever
 ```
 
 The app has seven tabs, all driven by the single product selector in the sidebar:

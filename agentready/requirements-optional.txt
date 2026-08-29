@@ -1,0 +1,27 @@
+# Optional extras. The core app does not need any of these.
+#
+#   pip install -r requirements-optional.txt
+#
+# Each degrades gracefully when absent, so skipping them costs you nothing on
+# the demo path.
+
+# --- REST API (agentready/api.py) ---
+# Only needed for: uvicorn agentready.api:app --reload
+fastapi>=0.110
+uvicorn>=0.27
+
+
+# --- Upgraded retrieval: DELIBERATELY COMMENTED OUT ---
+#
+# sentence-transformers>=2.2
+#
+# It pulls in PyTorch: roughly 2 GB, several minutes, and it needs the disk
+# space and a working build toolchain. We have watched it fail mid-install and
+# take every other package in the file down with it, because pip aborts the
+# whole file when one package fails.
+#
+# You do not need it. Without it the simulator uses TF-IDF, which is what every
+# number in our results was measured with.
+#
+# If you want it anyway, install it ON ITS OWN so a failure costs you nothing:
+#     pip install sentence-transformers
